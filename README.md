@@ -1,13 +1,13 @@
 # To-Do List Application
 A simple, interactive, and responsive To-Do List application built with React. Add, delete, and manage tasks with smooth animations and a polished UI.
 
-##Features
+## Features
 Responsive Design: Works seamlessly across devices of all sizes.
 Add and Remove Tasks: Quickly add new tasks or delete existing ones.
 Strike-Off with Animation: Tasks can be struck off with smooth transition animations before being removed.
 Clean and Intuitive UI: User-friendly design with vibrant aesthetics.
 
-##Installation
+## Installation
 Follow these steps to run the project locally:
 
 1. Clone the repository:
@@ -38,7 +38,7 @@ npm start
 ```
 The application will be available at http://localhost:3000 in your browser.
 
-##Technologies Used
+## Technologies Used
 1. Frontend:
 HTML
 CSS
@@ -49,7 +49,7 @@ React
 Node.js
 Express
 
-##Future Improvements
+## Future Improvements
 Integration with a backend API for saving tasks persistently.
 Adding due dates and task prioritization.
 Implementing authentication for user-specific task management.
@@ -74,8 +74,8 @@ git push origin feature-name
 ```
 Submit a pull request for review.
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-##Contact
+## Contact
 For questions, feedback, or collaboration, feel free to reach out at sohambhowmik276@gmail.com
