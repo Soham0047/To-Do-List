@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ToDoItem from "./ToDoItem";
 
 function App() {
   const [inputText, setInputText] = useState("");
@@ -10,10 +11,17 @@ function App() {
   }
 
   function addItem() {
+    if (inputText.trim() === "") return;
     setItems((prevItems) => {
-      return [...prevItems, inputText];
+      return [...prevItems, { id: Date.now(), text: inputText }]; // Add unique id
     });
     setInputText("");
+  }
+
+  function deleteItem(id) {
+    setItems((prevItems) => {
+      return prevItems.filter((item) => item.id !== id);
+    });
   }
 
   return (
@@ -30,7 +38,12 @@ function App() {
       <div>
         <ul>
           {items.map((todoItem) => (
-            <li>{todoItem}</li>
+            <ToDoItem
+              key={todoItem.id} // Use unique id as key
+              id={todoItem.id}
+              text={todoItem.text}
+              onChecked={deleteItem}
+            />
           ))}
         </ul>
       </div>
