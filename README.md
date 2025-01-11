@@ -13,12 +13,12 @@ Clone the repository:
 
 sh
 Copy code
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/yourusername/To-Do-List.git
 Navigate to the project directory:
 
 sh
 Copy code
-cd your-repo-name
+cd To-Do-List
 Install dependencies:
 
 sh
@@ -33,33 +33,15 @@ The application will be available at http://localhost:3000 in your browser.
 
 Technologies Used
 Frontend:
-
 HTML
 CSS
 JavaScript
 React
-Backend (optional for future expansion):
 
+Backend (optional for future expansion):
 Node.js
 Express
-Project Structure
-php
-Copy code
-your-repo-name/
-│
-├── public/                  # Public assets
-│   ├── index.html           # Main HTML file
-│   ├── styles.css           # Global CSS file
-│
-├── src/                     # Source files
-│   ├── components/          # React components
-│   │   ├── App.jsx          # Main App component
-│   │   ├── ToDoItem.jsx     # To-Do Item component
-│   ├── index.js             # ReactDOM rendering
-│
-├── package.json             # Project configuration
-├── README.md                # Project documentation
-└── .gitignore               # Ignored files for Git
+
 Future Improvements
 Integration with a backend API for saving tasks persistently.
 Adding due dates and task prioritization.
@@ -85,6 +67,4 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
-For questions, feedback, or collaboration, feel free to reach out at your-email@example.com.
-
-Replace placeholders like yourusername, your-repo-name, and your-email@example.com with the actual details. This will ensure your README.md is tailored for your project!
+For questions, feedback, or collaboration, feel free to reach out at sohambhowmik276@gmail.com
