@@ -1,63 +1,81 @@
-To-Do List Application
+# To-Do List Application
 A simple, interactive, and responsive To-Do List application built with React. Add, delete, and manage tasks with smooth animations and a polished UI.
 
-Features
+##Features
 Responsive Design: Works seamlessly across devices of all sizes.
 Add and Remove Tasks: Quickly add new tasks or delete existing ones.
 Strike-Off with Animation: Tasks can be struck off with smooth transition animations before being removed.
 Clean and Intuitive UI: User-friendly design with vibrant aesthetics.
-Installation
+
+##Installation
 Follow these steps to run the project locally:
 
-Clone the repository:
+1. Clone the repository:
 
 Copy code
+```bash
 git clone https://github.com/Soham0047/To-Do-List.git
-Navigate to the project directory:
+```
+2. Navigate to the project directory:
 
 Copy code
+```bash
 cd To-Do-List
-Install dependencies:
+```
+
+3. Install dependencies:
 
 Copy code
+```bash
 npm install
-Start the development server:
+```
+
+4. Start the development server:
 
 Copy code
+```bash
 npm start
+```
 The application will be available at http://localhost:3000 in your browser.
 
-Technologies Used
-Frontend:
+##Technologies Used
+1. Frontend:
 HTML
 CSS
 JavaScript
 React
 
-Backend (optional for future expansion):
+2. Backend (optional for future expansion):
 Node.js
 Express
 
-Future Improvements
+##Future Improvements
 Integration with a backend API for saving tasks persistently.
 Adding due dates and task prioritization.
 Implementing authentication for user-specific task management.
 Contributing
 Contributions are welcome! If you'd like to contribute:
 
-Fork the repository.
-Create a branch for your feature:
+1. Fork the repository.
+2. Create a branch for your feature:
 Copy code
+```bash
 git checkout -b feature-name
-Commit your changes:
+```
+3. Commit your changes:
 Copy code
+```bash
 git commit -m "Add new feature"
-Push to your branch:
+```
+4. Push to your branch:
 Copy code
+```bash
 git push origin feature-name
+```
 Submit a pull request for review.
-License
+
+##License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+##Contact
 For questions, feedback, or collaboration, feel free to reach out at sohambhowmik276@gmail.com
