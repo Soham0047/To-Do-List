@@ -11,22 +11,18 @@ Follow these steps to run the project locally:
 
 Clone the repository:
 
-sh
 Copy code
-git clone https://github.com/yourusername/To-Do-List.git
+git clone https://github.com/Soham0047/To-Do-List.git
 Navigate to the project directory:
 
-sh
 Copy code
 cd To-Do-List
 Install dependencies:
 
-sh
 Copy code
 npm install
 Start the development server:
 
-sh
 Copy code
 npm start
 The application will be available at http://localhost:3000 in your browser.
@@ -51,15 +47,12 @@ Contributions are welcome! If you'd like to contribute:
 
 Fork the repository.
 Create a branch for your feature:
-sh
 Copy code
 git checkout -b feature-name
 Commit your changes:
-sh
 Copy code
 git commit -m "Add new feature"
 Push to your branch:
-sh
 Copy code
 git push origin feature-name
 Submit a pull request for review.
